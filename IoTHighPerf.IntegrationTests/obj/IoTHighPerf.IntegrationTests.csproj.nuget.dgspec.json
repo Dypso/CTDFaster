@@ -1,0 +1,366 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.IntegrationTests\\IoTHighPerf.IntegrationTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Api\\IoTHighPerf.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Api\\IoTHighPerf.Api.csproj",
+        "projectName": "IoTHighPerf.Api",
+        "projectPath": "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Api\\IoTHighPerf.Api.csproj",
+        "packagesPath": "C:\\Users\\karim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\karim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Core\\IoTHighPerf.Core.csproj": {
+                "projectPath": "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Core\\IoTHighPerf.Core.csproj"
+              },
+              "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Infrastructure\\IoTHighPerf.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Infrastructure\\IoTHighPerf.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Microsoft.DotNet.ILCompiler": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "autoReferenced": true
+            },
+            "Microsoft.FASTER.Core": {
+              "target": "Package",
+              "version": "[2.6.5, )"
+            },
+            "Microsoft.IO.RecyclableMemoryStream": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "autoReferenced": true
+            },
+            "NetMQ": {
+              "target": "Package",
+              "version": "[4.0.1.13, )"
+            },
+            "System.IO.Pipelines": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "prometheus-net.AspNetCore": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "runtime.win-x64.Microsoft.DotNet.ILCompiler",
+              "version": "[8.0.8, 8.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Core\\IoTHighPerf.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Core\\IoTHighPerf.Core.csproj",
+        "projectName": "IoTHighPerf.Core",
+        "projectPath": "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Core\\IoTHighPerf.Core.csproj",
+        "packagesPath": "C:\\Users\\karim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\karim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "System.IO.Pipelines": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Infrastructure\\IoTHighPerf.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Infrastructure\\IoTHighPerf.Infrastructure.csproj",
+        "projectName": "IoTHighPerf.Infrastructure",
+        "projectPath": "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Infrastructure\\IoTHighPerf.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\karim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\karim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Core\\IoTHighPerf.Core.csproj": {
+                "projectPath": "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Core\\IoTHighPerf.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.ObjectPool": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.FASTER.Core": {
+              "target": "Package",
+              "version": "[2.6.5, )"
+            },
+            "NetMQ": {
+              "target": "Package",
+              "version": "[4.0.1.13, )"
+            },
+            "System.Threading.Channels": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.IntegrationTests\\IoTHighPerf.IntegrationTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.IntegrationTests\\IoTHighPerf.IntegrationTests.csproj",
+        "projectName": "IoTHighPerf.IntegrationTests",
+        "projectPath": "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.IntegrationTests\\IoTHighPerf.IntegrationTests.csproj",
+        "packagesPath": "C:\\Users\\karim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.IntegrationTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\karim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Api\\IoTHighPerf.Api.csproj": {
+                "projectPath": "C:\\Users\\karim\\Downloads\\CTD_0\\project\\IoTHighPerf.Api\\IoTHighPerf.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
